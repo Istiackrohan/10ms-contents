@@ -39,7 +39,7 @@ const Sidebar = () => {
                 </Nav>
                 <SidebarNav>
                     <SidebarWrap>
-                        {<img style={{marginTop: "80px", marginBottom: "50px", marginLeft: "80px", marginRight: "80px",}} src="https://github.com/Istiackrohan/10ms-contents/blob/main/images/logo.png?raw=true" alt="Logo"></img>}
+                        {<img style={{marginTop: "80px", marginBottom: "50px", marginLeft: "80px", marginRight: "80px",}} src="https://github.com/Istiackrohan/10ms-contents/blob/main/public/images/logo.png?raw=true" alt="Logo"></img>}
                         {SidebarData.map((item, index) => {
                             return <SubMenu item={item} key={index} />;
                         })}
