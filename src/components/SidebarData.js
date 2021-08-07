@@ -11,8 +11,8 @@ export const SidebarData = [
         title: 'Home',
         path: '/home',
         icon: <AiIcons.AiFillHome/>,
-        iconClosed: <RiIcons.RiArrowDownFill/>,
-        iconOpen: <RiIcons.RiArrowUpFill/>,
+        iconClosed: <RiIcons.RiArrowDownSFill />,
+        iconOpened: <RiIcons.RiArrowUpSFill />,
         SubNav: [
             {
                 title: 'Users',
@@ -29,7 +29,7 @@ export const SidebarData = [
     {
         title: 'Contents',
         path: '/Contents',
-        icon: <IoIcons.IoSchoolSharp/>
+        icon: <IoIcons.IoIosSchool/>
     },
     {
         title: 'Teams',

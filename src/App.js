@@ -1,5 +1,4 @@
-import React from 'react';
-import { BsArrowBarRight } from "react-icons/bs";
+import React from 'react'; 
 import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
 import './App.css';
 import Sidebar from './components/Sidebar';
