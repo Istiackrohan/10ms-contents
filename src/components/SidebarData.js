@@ -10,45 +10,45 @@ export const SidebarData = [
     {
         title: 'Home',
         path: '/home',
-        icon: <AiIcons.AiFillHome/>,
+        icon: <AiIcons.AiFillHome />,
+    },
+    {
+        title: 'Users',
+        path: '/home/users',
+        icon: <FaIcons.FaUserCircle />,
         iconClosed: <RiIcons.RiArrowDownSFill />,
         iconOpened: <RiIcons.RiArrowUpSFill />,
         SubNav: [
             {
-                title: 'Users',
-                path: '/home/users',
-                icon: <FaIcons.FaUserCircle/>,
-            },
-            {
                 title: 'Report',
                 path: '/home/report',
-                icon: <AiIcons.AiOutlineBarChart/>,
+                icon: <AiIcons.AiOutlineBarChart />,
+            },
+            {
+                title: 'Information',
+                path: '/Information',
+                icon: <BsIcons.BsInfoCircleFill />
             }
         ]
     },
     {
         title: 'Contents',
         path: '/Contents',
-        icon: <IoIcons.IoIosSchool/>
+        icon: <IoIcons.IoIosSchool />
     },
     {
         title: 'Teams',
         path: '/teams',
-        icon: <RiIcons.RiTeamFill/>
+        icon: <RiIcons.RiTeamFill />
     },
     {
-        title: 'About',
-        path: '/about',
-        icon: <BsIcons.BsInfoCircleFill/>
-    },
-    {
-        title: 'Contact',
-        path: '/contact',
-        icon: <RiIcons.RiContactsBookFill/>
+        title: 'Support',
+        path: '/Support',
+        icon: <RiIcons.RiContactsBookFill />
     },
     {
         title: 'Profile',
         path: `/profile`,
-        icon: <CgIcons.CgProfile/>
+        icon: <CgIcons.CgProfile />
     }
 ]
