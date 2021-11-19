@@ -14,26 +14,25 @@ export const SidebarData = [
     },
     {
         title: 'Users',
-        path: '/home/users',
         icon: <FaIcons.FaUserCircle />,
         iconClosed: <RiIcons.RiArrowDownSFill />,
         iconOpened: <RiIcons.RiArrowUpSFill />,
         SubNav: [
             {
                 title: 'Report',
-                path: '/home/report',
+                path: '/users/report',
                 icon: <AiIcons.AiOutlineBarChart />,
             },
             {
                 title: 'Information',
-                path: '/Information',
+                path: '/users/information',
                 icon: <BsIcons.BsInfoCircleFill />
             }
         ]
     },
     {
         title: 'Contents',
-        path: '/Contents',
+        path: '/contents',
         icon: <IoIcons.IoIosSchool />
     },
     {

@@ -1,0 +1,16 @@
+.Navbar{
+    background-image: linear-gradient(rgb(24, 24, 24), rgb(75, 25, 25), rgb(104, 30, 30));
+    box-shadow: 10px 0px 20px black;
+    height: 80px;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    font-family: "Nunito", sans-serif;
+}
+.Navbar img{
+    margin-left: 60px;
+    margin-top: 25.5px;
+    cursor: pointer;
+}
+.search{
+    margin-top: 10px;
+}
